@@ -1,0 +1,45 @@
+:root {
+    font-family: Inter, serif;
+}
+
+.count-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-area: "box-info";
+    padding-top: 5rem;
+}
+
+.box-info {
+    max-width: 20rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgb(15, 11, 99) 0%, rgb(23, 38, 114) 42%, rgba(0,212,255,1) 100%);
+    box-shadow: 0px 4px 46px 13px rgba(0,0,0,0.1);
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.box-btns {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.box-btns button {
+    border-radius: .2rem;
+    color: white;
+}
+
+.box-btns button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border: none;
+    background-color: rgba(205, 207, 216, 0.562);
+}
